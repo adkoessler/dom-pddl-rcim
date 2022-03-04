@@ -1,0 +1,7 @@
+Commands for Metric-FF solver execution
+
+1D object transportation (Flixeder controller):
+./ff -p ../dom-pddl-rcim/ -o domain_uc1.txt -f prob_uc1.txt -s 5
+
+2D object shape control (Aranda controller):
+./ff -p ../dom-pddl-rcim/ -o domain_uc2.txt -f prob_uc2.txt -s 5

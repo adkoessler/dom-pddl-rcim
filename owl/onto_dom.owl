@@ -1,0 +1,1018 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#"
+     xml:base="http://www.semanticweb.org/adrien/ontologies/2021/9/dom"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeG -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#activeP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#belongsA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#belongsA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_e170c04a_6b83_40e3_be84_f5b1476b3668"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#belongsP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#belongsP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_3626b558_dc34_4a0b_9ce2_12d915297569"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canControlV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canControlV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canHandleG -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canHandleG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canHandleT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canHandleT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMeasureV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMeasureV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMountP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMountP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMountT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canMountT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canPerceiveO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canPerceiveO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canPerformGrasp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#canPerformGrasp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasBehavO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasBehavO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasControlledV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasControlledV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasGrasped -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasGrasped">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMeasuredAV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMeasuredAV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMeasuredOV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMeasuredOV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMethodM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMethodM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_37727f16_bf92_47f6_91e7_89b4f77171d2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMountedP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMountedP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMountedT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasMountedT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasStateValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasStateValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTexO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTexO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_428c0a44_5fba_4e26_8eb1_7dbdfceaa020"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeG -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#hasTypeV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Def_obj_behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_3626b558_dc34_4a0b_9ce2_12d915297569 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_3626b558_dc34_4a0b_9ce2_12d915297569">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Perceptor_set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_37727f16_bf92_47f6_91e7_89b4f77171d2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_37727f16_bf92_47f6_91e7_89b4f77171d2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Mdl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_428c0a44_5fba_4e26_8eb1_7dbdfceaa020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_428c0a44_5fba_4e26_8eb1_7dbdfceaa020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Def_obj_texture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Def_obj_state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Mdl_method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Grasp_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Actuator_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">State_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Def_obj_dimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8f9b62ff_5ffa_4221_a897_d38d90988f06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8f9b62ff_5ffa_4221_a897_d38d90988f06">
+        <rdfs:label xml:lang="fr">Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Def_obj</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8f9b62ff_5ffa_4221_a897_d38d90988f06"/>
+        <rdfs:label xml:lang="fr">Class_object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Variable_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Perceptor_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_e170c04a_6b83_40e3_be84_f5b1476b3668 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_e170c04a_6b83_40e3_be84_f5b1476b3668">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Actuator_set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Perceptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Grasp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Tool_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f75b2b23_1663_4553_b415_fd874d30c2f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f75b2b23_1663_4553_b415_fd874d30c2f4">
+        <rdfs:label xml:lang="fr">Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Actuator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_fcbb19b8_8845_41de_85db_448d24d0ed65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_fcbb19b8_8845_41de_85db_448d24d0ed65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_b92004ec_f0e0_4481_bf97_3fcc07dc3334"/>
+        <rdfs:label xml:lang="fr">Grasp_set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_3b9308bd_ba67_4de7_87a9_32426e92abed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_3b9308bd_ba67_4de7_87a9_32426e92abed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a"/>
+        <rdfs:label xml:lang="fr">six_dof_robot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_78d565b0_8435_424d_a289_6ae3fba9ea95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_78d565b0_8435_424d_a289_6ae3fba9ea95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a"/>
+        <rdfs:label xml:lang="fr">three_dof_robot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_b4a8271f_8376_4d5e_a0e4_7225d014b261 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_b4a8271f_8376_4d5e_a0e4_7225d014b261">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+        <rdfs:label xml:lang="fr">magnetic_gripper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_c85450fa_bb0c_47cc_b642_77ecae919af8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_c85450fa_bb0c_47cc_b642_77ecae919af8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+        <rdfs:label xml:lang="fr">two_finger_gripper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_e8627b8b_c4b4_43ee_b2cd_7f11c28e5a76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_e8627b8b_c4b4_43ee_b2cd_7f11c28e5a76">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+        <rdfs:label xml:lang="fr">three_finger_gripper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_f363621d_6a93_4737_875d_38fe00bf0146 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLNamedIndividual_f363621d_6a93_4737_875d_38fe00bf0146">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+        <rdfs:label xml:lang="fr">suction_gripper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#bidim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#bidim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#cloth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#cloth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#constitutive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#constitutive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#elastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#elastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#elastoplastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#elastoplastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#generic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#generic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#geometric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#geometric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#initial_value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#initial_value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#isometric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#isometric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_position -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_position">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_position_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_position_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_torque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_torque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_velocity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_velocity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_velocity_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#joint_velocity_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#learned -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#learned">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#magnet_grasp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#magnet_grasp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_2d_image -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_2d_image">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_partial_point_cloud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_partial_point_cloud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_point_cloud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_point_cloud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_pose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_pose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_shape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_shape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_stress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_stress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_tension -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#object_tension">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#origami -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#origami">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#pinch_grasp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#pinch_grasp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#position -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#position">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#scissor_grasp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#scissor_grasp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#shape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#shape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#stress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#stress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#suction_grasp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#suction_grasp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#target_value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#target_value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_force -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_force">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_force_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_force_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_pose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_pose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_position_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_position_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_velocity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_velocity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_velocity_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tcp_velocity_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#textured -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#textured">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_428c0a44_5fba_4e26_8eb1_7dbdfceaa020"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#textureless -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#textureless">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_428c0a44_5fba_4e26_8eb1_7dbdfceaa020"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tool_tactile_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tool_tactile_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#topology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#topology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tridim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#tridim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#unidim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#unidim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#unknown_value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#unknown_value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#valid_value -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#valid_value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#vision_2d_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#vision_2d_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adrien/ontologies/2021/9/dom#vision_3d_sensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#vision_3d_sensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_1261a5c7_377d_496a_9c7a_2ad511918afe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2c58a4a6_9900_4cec_8ec2_52c2648a504a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_2ee0bd18_2141_4952_a3cf_3d6a3eb09e34"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_3626b558_dc34_4a0b_9ce2_12d915297569"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_37727f16_bf92_47f6_91e7_89b4f77171d2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_47d0e04e_e204_4def_99ba_335108430bd4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_5082bc1c_6819_4c4f_aa8a_bb87c93e20d2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_57048c0f_3e4e_41de_95fb_ac3fc4e5ee33"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_7c510e20_3fce_4b3d_a585_e144d057193a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8759fe0e_75b6_4781_a9b9_5c9896d77038"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_8eb50281_484e_4b91_b302_19d354b3ceb5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_94f72b68_0f73_40f2_abcd_61527f8568f4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_bf92762a_85dc_45ac_b989_41d1e6f05f67"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_c8400550_b34f_48a7_a233_935d93c91b00"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_e170c04a_6b83_40e3_be84_f5b1476b3668"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ed7d240f_9f6b_4c07_9666_7c50714a4464"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ede190c4_e7fb_4838_adee_7dcf901a56a4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_ee5be4cc_5b9e_42e8_a3b2_b8ed3fbf5c04"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f75b2b23_1663_4553_b415_fd874d30c2f4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_f7b95dcf_b3d8_499d_80f6_21b458ab6c32"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/adrien/ontologies/2021/9/dom#OWLClass_fcbb19b8_8845_41de_85db_448d24d0ed65"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
